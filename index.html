@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF Viewer</title>
+    <title>Resume Oconer</title>
+    <link rel="icon" href="icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <embed src="resume-latest.pdf" type="application/pdf" />
+    <object data="resume-latest.pdf" type="application/pdf">
+        <p>Your browser does not support embedded PDFs. <a href="resume-latest.pdf">Download the PDF</a>.</p>
+    </object>
 </body>
 </html>
